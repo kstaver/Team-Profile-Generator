@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstaver/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "team",
+    "profile"
+  ],
+  "author": "Kendra Staver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kstaver/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/kstaver/Team-Profile-Generator#readme"
+}
