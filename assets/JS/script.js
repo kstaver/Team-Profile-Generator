@@ -1,1 +1,0 @@
-// testing why my script.js is not linking with main
