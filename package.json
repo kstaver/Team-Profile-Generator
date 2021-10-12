@@ -25,5 +25,8 @@
   "homepage": "https://github.com/kstaver/Team-Profile-Generator#readme",
   "devDependencies": {
     "jest": "^27.2.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }

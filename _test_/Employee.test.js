@@ -35,13 +35,13 @@ test("Can get id via getId()", () => {
     expect(e.getId()).toBe(testValue);
 });
 
-test("Can get email via getEmail()", () =>{
+test("Can get email via getEmail()", () => {
     const testValue = "test@test.com";
     const e = new Employee("Foo", 1, testValue);
     expect(e.getEmail().toBe(testValue));
 });
 
-test("getRole() should return \"Employee\"", () =>{
+test("getRole() should return \"Employee\"", () => {
     const testValue = "Employee";
     const e = new Employee("Bob", 1, "test@test.com");
     expect(e.getRole()).toBe(textValue);
