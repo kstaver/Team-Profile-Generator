@@ -44,7 +44,7 @@ const generateIntern = function(Intern){
         <div class = "card-body">
             <p class = "id">ID: ${Intern.id}</p>
             <p class = "email"> Email: <a href = "${Intern.email}">${Intern.email}</a></p>
-            <p class = "school">Office Number: ${Intern.school}</p>
+            <p class = "school">School: ${Intern.school}</p>
         </div>
     </div>
     `;
