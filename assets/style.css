@@ -21,8 +21,8 @@ body{
 }
 
 .card-title{
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 .card-body{
