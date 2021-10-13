@@ -11,12 +11,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#team{
+#navbar{
     background-color: var(--primary);
     color: var(--secondary);
 }
 
-.team{
+.navbar-brand{
     font-size: 50px;
 }
 
