@@ -2,9 +2,9 @@
 const generateManager = function(Manager){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card-header"> <!--card h-100-->
             <h3>${Manager.name}</h3>
-            <h4>Manager</h4><i class = "fas fa-users">users</i>
+            <h4>Manager</h4><i class = "fas fa-users"></i>
         </div>
 
         <div class = "card-body">
@@ -19,9 +19,9 @@ const generateManager = function(Manager){
 const generateEngineer = function(Engineer){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card-header"> <!--card h-100-->
             <h3>${Engineer.name}</h3>
-            <h4>Engineer</h4><i class = "fa-solid fa-user-gear">user_gear</i>
+            <h4>Engineer</h4><i class = "fas fa-user-gear"></i>
         </div>
 
         <div class = "card-body">
@@ -36,9 +36,9 @@ const generateEngineer = function(Engineer){
 const generateIntern = function(Intern){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card-header"> <!--card h-100-->
             <h3>${Intern .name}</h3>
-            <h4>Intern</h4><i class = "fas fa-user-graduate">user-graduate</i>
+            <h4>Intern</h4><i class = "fas fa-school"></i>
         </div>
 
         <div class = "card-body">
@@ -104,7 +104,7 @@ const generateTeamPage = function(employeeCards){
     
         <!--Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-    
+
         <!--Kendra's Stylesheet-->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
