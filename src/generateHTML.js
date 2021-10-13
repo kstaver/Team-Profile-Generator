@@ -50,4 +50,34 @@ const generateIntern = function(Intern){
     `;
 }
 // Create HTML
+generateHTML = (data) => {
+
+    pageArray = [];
+
+    for(let i = 0; i < data.length; i++){
+        const Employee = data[i];
+        const role = Employee.getRole();
+
+        // Call Manager
+        if(role === 'Manager'){
+            const managerCard = generateManager(Employee);
+
+            pageArray.push(managerCard);
+        }
+
+        // Call Engineer
+        if(role === 'Engineer'){
+            const engineerCard = generateEngineer(Employee);
+
+            pageArray.push(engineerCard);
+        }
+
+        // Call Intern
+        if(role === 'Intern'){
+            const internCard = generateEngineer(Employee);
+
+            pageArray.push(internCard);
+        }
+    }
+}
 // Create Team Page
