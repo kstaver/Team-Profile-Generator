@@ -79,5 +79,24 @@ generateHTML = (data) => {
             pageArray.push(internCard);
         }
     }
+
+    // Combine all strings into uniform employee card
+    const employeeCards = pageArray.join('');
+
+    // Return to the generated HTML
+    const generateTeam = generateTeamPage(employeeCards);
+    return generateTeam;
 }
-// Create Team Page
+
+//
+const generateTeamPage = function(employeeCards){
+    return `
+    <!DOCTYPE html>
+    <html lang ="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Team Profile</title>
+        
+    `
+}
