@@ -97,6 +97,45 @@ const generateTeamPage = function(employeeCards){
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <title>Team Profile</title>
-        
-    `
+
+        <!--Boostrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+        <!--Font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    
+        <!--Kendra's Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class = "navbar" id = "navbar">
+                <span class = "navbar-brand mb-0 h1 w-100 text-center" id = "navbar-text">Team Profile</span>
+            </nav>
+        </header>
+        <main>
+            <div class = "container">
+                <div class = "row justify-content-center" id = "team-cards">
+                    <!--Team Cards-->
+                    ${employeeCards}
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <!--Bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+    <!--Moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    <!--jQuery Script-->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    `;
 }
+
+// Export to index.html
+module.exports = generateHTML;
