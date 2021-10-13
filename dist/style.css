@@ -3,8 +3,8 @@
 }
 
 :root{
-    --primary: blue;
-    --secondary: white;
+    --primary: #0000ff;
+    --secondary: black;
 }
 
 body{
@@ -12,8 +12,8 @@ body{
 }
 
 #navbar{
-    background-color: var(--primary);
-    color: var(--secondary);
+    background-color: blueviolet;
+    color: white;
 }
 
 .navbar-brand{
