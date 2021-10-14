@@ -74,7 +74,7 @@ generateHTML = (data) => {
 
         // Call Intern
         if(role === 'Intern'){
-            const internCard = generateEngineer(Employee);
+            const internCard = generateIntern(Employee);
 
             pageArray.push(internCard);
         }
