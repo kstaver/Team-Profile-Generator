@@ -4,7 +4,7 @@ const generateManager = function(Manager){
     <div class = "col-4 mt-4">
         <div class = "card-header">
             <h3>${Manager.name}</h3>
-            <h4 style="padding-right:25px;" href='#'><i class = "fas fa-users"></i>Manager</h4>
+            <h4><i class = "fas fa-users"></i>Manager</h4>
         </div>
 
         <div class = "card-body">
@@ -21,7 +21,7 @@ const generateEngineer = function(Engineer){
     <div class = "col-4 mt-4">
         <div class = "card-header">
             <h3>${Engineer.name}</h3>
-            <i class = "fas fa-cat"></i><h4>Engineer</h4>
+            <h4><i class = "fas fa-cat"></i>Engineer</h4>
         </div>
 
         <div class = "card-body">
