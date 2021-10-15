@@ -2,18 +2,18 @@
     box-sizing: border-box;
 }
 
-/*:root{
-    --primary: #0000ff;
-    --secondary: black;
-}*/
+:root{
+    --primary: #a200ff;
+    --secondary: rgb(255, 255, 255);
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar{
-    background-color: blueviolet;
-    color: white;
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 .navbar-brand{
@@ -21,13 +21,19 @@ body{
 }
 
 .card-header{
-    background-color: purple;
+    background-color: grey;
     color: white;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777; 
+     box-shadow: 5px 5px 5px #777777;
 }
 
 .card-body{
-    background-color:grey;
-    color: var(black);
+    background-color:white;
+    color: black;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777; 
+     box-shadow: 5px 5px 5px #777777;
 }
 
 .container{
