@@ -25,7 +25,11 @@ body{
     color: white;
     -moz-box-shadow: 5px 5px 5px #777777;
     -webkit-box-shadow: 5px 5px 5px #777777; 
-     box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+.icon{
+    margin: 20px;
 }
 
 .card-body{
@@ -33,7 +37,7 @@ body{
     color: black;
     -moz-box-shadow: 5px 5px 5px #777777;
     -webkit-box-shadow: 5px 5px 5px #777777; 
-     box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777;
 }
 
 .container{
