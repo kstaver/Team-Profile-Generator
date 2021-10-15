@@ -2,9 +2,9 @@
 const generateManager = function(Manager){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card-header"> <!--card h-100-->
+        <div class = "card-header">
             <h3>${Manager.name}</h3>
-            <h4>Manager</h4><i class = "fas fa-users"></i>
+            <h4 style="padding-right:25px;" href='#'><i class = "fas fa-users"></i>Manager</h4>
         </div>
 
         <div class = "card-body">
@@ -19,9 +19,9 @@ const generateManager = function(Manager){
 const generateEngineer = function(Engineer){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card-header"> <!--card h-100-->
+        <div class = "card-header">
             <h3>${Engineer.name}</h3>
-            <h4>Engineer</h4><i class = "fas fa-user-gear"></i>
+            <i class = "fas fa-cat"></i><h4>Engineer</h4>
         </div>
 
         <div class = "card-body">
@@ -36,9 +36,9 @@ const generateEngineer = function(Engineer){
 const generateIntern = function(Intern){
     return `
     <div class = "col-4 mt-4">
-        <div class = "card-header"> <!--card h-100-->
+        <div class = "card-header">
             <h3>${Intern .name}</h3>
-            <h4>Intern</h4><i class = "fas fa-school"></i>
+            <h4><i class = "fas fa-school"></i>Intern</h4>
         </div>
 
         <div class = "card-body">
