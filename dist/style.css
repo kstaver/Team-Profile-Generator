@@ -3,7 +3,7 @@
 }
 
 :root{
-    --primary: #a200ff;
+    --primary: #330250;
     --secondary: rgb(255, 255, 255);
 }
 
@@ -29,7 +29,8 @@ body{
 }
 
 .icon{
-    margin: 20px;
+    margin-right: 20px;
+    display: inline-block;
 }
 
 .card-body{
