@@ -155,7 +155,7 @@ const addEmployee = () => {
             message: 'Would you like to add more team members?',
             default: false
         }
-    ])
+    ]) // end array
     .then(employeeData => {
 
         let {name, id, email, role, github, school, confirmAddEmployee} = employeeData; 
@@ -180,7 +180,6 @@ const addEmployee = () => {
             return teamArray;
         }
     })
-
 };
 
 // Generate HTML page by using writeFile function
