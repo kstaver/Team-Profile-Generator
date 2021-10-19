@@ -22,7 +22,7 @@ This application is useful for keeping track of the members of your team at work
 ## Usage
 This application is a great way to keep track of all your team members at your place of work. Please see the video linked [here]() to see an example of how you can use the application.
 
-![manager_added](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\manager_added.JPG)
+![manager_added](assets\images\manager_added.JPG)
 
 ![employee_added](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\employee_added.JPG)
 
