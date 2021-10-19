@@ -34,7 +34,7 @@ This application is a great way to keep track of all your team members at your p
 Feel free to contact me about contributing to this repository.
 
 ## Testing
-Tests are done with Jest.js. Each position has its own test.js.
+Tests are done with Jest.js. Each test was performed in the video mentioned in usage.
 
 ## Questions
 If you have any questions pertaining to my Team Profile Generator App, feel free to contact me.
