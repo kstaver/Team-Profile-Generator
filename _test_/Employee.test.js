@@ -38,11 +38,11 @@ test("Can get id via getId()", () => {
 test("Can get email via getEmail()", () => {
     const testValue = "test@test.com";
     const e = new Employee("Foo", 1, testValue);
-    expect(e.getEmail().toBe(testValue));
+    expect(e.getEmail()).toBe(testValue));
 });
 
 test("getRole() should return \"Employee\"", () => {
     const testValue = "Employee";
     const e = new Employee("Bob", 1, "test@test.com");
-    expect(e.getRole()).toBe(textValue);
+    expect(e.getRole()).toBe(testValue);
 });
