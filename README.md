@@ -1,5 +1,5 @@
 ## Description
-
+This application is useful for keeping track of the members of your team at work. The Team Profile Generator is easy to use and outputs a simple site that stores your entered data. This app allows for multiple engineers and interns to be added to your team. However, only one manager can be added. Please take a look at the usage section for an example of a team profile that I created.
 
 ## Table of Contents
 - [Description](#description)
@@ -20,15 +20,15 @@
 6. The app should start prompting you with questions. If you notice it is not working properly, please contact me using the contact info below.
 
 ## Usage
+This application is a great way to keep track of all your team members at your place of work. Please see the video linked [here]() to see an example of how you can use the application.
 
+![manager_added](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\manager_added.JPG)
 
-![]()
+![employee_added](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\employee_added.JPG)
 
-![]()
+![intern_added_and_html_made](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\intern_added_and_html_made.JPG)
 
-![]()
-
-![]()
+![generated_profile](C:\Users\EspurrBuns\Documents\GitHub\Team-Profile-Generator\assets\images\generated_profile.JPG)
 
 ## Contribution
 Feel free to contact me about contributing to this repository.
