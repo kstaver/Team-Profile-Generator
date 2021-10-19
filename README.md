@@ -20,7 +20,7 @@ This application is useful for keeping track of the members of your team at work
 6. The app should start prompting you with questions. If you notice it is not working properly, please contact me using the contact info below.
 
 ## Usage
-This application is a great way to keep track of all your team members at your place of work. Please see the video linked [here]() to see an example of how you can use the application.
+This application is a great way to keep track of all your team members at your place of work. Please see the video linked [here](https://youtu.be/a4VVD2uZBvo) to see how the application works.
 
 ![manager_added](https://github.com/kstaver/Team-Profile-Generator/blob/main/assets/images/manager_added.JPG)
 
@@ -34,10 +34,10 @@ This application is a great way to keep track of all your team members at your p
 Feel free to contact me about contributing to this repository.
 
 ## Testing
-Tests are done with Jest.js. Each test was performed in the video mentioned in usage.
+Tests are done with Jest.js. Each test was performed in the video mentioned above in usage.
 
 ## Questions
-If you have any questions pertaining to my Team Profile Generator App, feel free to contact me.
+If you have any questions pertaining to my Team Profile Generator app, feel free to contact me.
 
 ## Contact Info
 - Github: [kstaver](https://github.com/kstaver)
